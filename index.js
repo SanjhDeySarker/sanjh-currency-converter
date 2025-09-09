@@ -2,7 +2,7 @@ import Freecurrencyapi from '@everapi/freecurrencyapi-js';
 
 const freecurrencyapi = new Freecurrencyapi('fca_live_WrZuIFEsiGKAO7T4T655MVKrg5OvBG5zMT7PamDf');
 
-convertCurrency("INR", "USD", 3);
+//convert formCurrency to toCurrency units
 
 export async function convertCurrency(fromCurrency, toCurrency, units) {
     const res = await freecurrencyapi.latest({
