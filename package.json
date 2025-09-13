@@ -1,6 +1,6 @@
 {
   "name": "sanjh-currency-converter",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "An npm package to convert currency",
   "main": "index.js",
   "type": "module",
